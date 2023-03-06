@@ -19,7 +19,7 @@ const data = [
   {
     min: 30,
     max: 10000,
-    info: "Obeso",
+    info: "Obesidade",
   }
 ]
 
@@ -101,7 +101,7 @@ calculaBotao.addEventListener("click", (e) => {
         imcNumero.classList.add("atencao");
         imcInfo.classList.add("atencao");
       break;
-      case "Obeso":
+      case "Obesidade":
         imcNumero.classList.add("ruim");
         imcInfo.classList.add("ruim");
         break;
